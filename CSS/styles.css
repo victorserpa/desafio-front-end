@@ -58,9 +58,20 @@ header h1{
 	border: medium;
 }
 
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+	-webkit-text-stroke: 1px; 
+}
+
 
 footer{
+	bottom: 0;
 	text-align: center;
+	text-decoration: underline ;
 	background-color: #0a0a0a;
 	color: white;
+	height: 5vh;
 }
